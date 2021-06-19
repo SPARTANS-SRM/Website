@@ -118,7 +118,7 @@ figure figcaption {
   }
 }
 #fh5co-aside{
-  background-color: #1C1D22;
+  background-color: #000000;
 }
 #fh5co-aside #fh5co-logo {
   text-align: center;
@@ -138,7 +138,7 @@ figure figcaption {
 /* } */
 #fh5co-aside #fh5co-logo a span {
   font-weight: 300;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(253, 53, 4, 0.986);
 }
 #fh5co-aside #fh5co-main-menu ul {
   text-align: center;
@@ -177,7 +177,7 @@ figure figcaption {
   bottom: 7px;
   left: 10px;
   right: 10px;
-  background-color: #228896;
+  background-color: #e95f0f;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
