@@ -88,6 +88,8 @@
         background-color: #1C1D22;
     }
     .back-to-top1:hover{
+        transition: border-color 1s;
+        transition: color 0.4s;
         color:tomato;
         border-color: tomato;
         
