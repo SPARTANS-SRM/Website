@@ -1,0 +1,189 @@
+
+	/* Coded with love by Mutiullah Samim */
+ 
+    .user_card {
+        
+        height: 500px;
+        width: 450px;
+        margin-top: auto;
+        margin-bottom: auto;
+        background: #131313;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+
+    }
+    .form-control{    
+        border-color: black !important;
+    }
+    .brand_logo_container {
+        
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        left:125px;
+        top: -75px;
+        border-radius: 50%;
+        background: #0c0d0e ;
+        padding: 10px;
+        text-align: center;
+    }
+    .brand_logo {
+        height: 175px;
+        width: 175px;
+        border-radius: 50%;
+        /* border: 2px solid white; */
+    }
+    .form_container {
+        margin-top: 100px;
+    }
+    .custom-control-label{
+        color:rgba(255, 255, 255, 0.527);
+    }
+    .login_btn {
+        margin-left:5% !important;
+        width: 95%;
+        background: #f85231 !important;
+        color: white !important;
+    }
+    .login_btn:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    .login_container {
+        
+        padding: 0 2rem;
+    }
+    
+    .input-group {
+        padding: 10px;
+    }
+    
+    .input-group .form-control {
+        
+        
+        margin-left: 75px;
+    }
+    .input-group-append{
+        width:50px;
+        height:0px
+    }
+    .input-group-text {
+        height:50px;
+        
+        color: white !important;
+        border: 0 !important;
+        border-radius: 0.25rem 0 0 1rem !important;
+    }
+    .back-to-top1 {
+        font-weight: 500;
+        border-color: #228896;
+        color: #228896;
+        background-color: #1C1D22;
+    }
+    .back-to-top1:hover{
+        color:tomato;
+        border-color: tomato;
+        
+        
+    }
+    .fas{
+        border-radius: 0.25rem 0 0 1rem !important;
+        margin-left:21px ;
+        padding: 14px;
+        background: #f85231 !important;
+        font-size: 24px;
+        width: 54px;
+        height: 54px !important;
+    }
+    i.fas.fa-user::before{
+        height: 50px !important;
+    }
+    
+    .input_user,
+    .input_pass:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    .custom-checkbox .custom-control-label::before {
+        background-color: white;
+    }
+    
+    .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+        background-color: #f85231 !important;
+    }
+    .popup .overlay {
+        position:fixed;
+        top:0px;
+        left:0px;
+        width:100vw;
+        height:100vh;
+        background:rgba(0,0,0,0.7);
+        z-index:1;
+        display:none;
+      }
+       
+      .popup .content {
+        border-radius: 4%;
+        position:fixed;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%) scale(0);
+        /* background:#fff; */
+        width:95% !important;
+        max-width:500px;
+        height:400px;
+        z-index:2;
+        text-align:center;
+        padding:20px;
+        box-sizing:border-box;
+        font-family:"Open Sans",sans-serif;
+      }
+       
+      .popup .close-btn {
+          z-index: 999;
+        cursor:pointer;
+        position:absolute;
+        right:5px;
+        top:10px;
+        width:30px;
+        height:30px;
+        background:#f85231;
+        color:#fff;
+        font-size:25px;
+        font-weight:600;
+        line-height:30px;
+        text-align:center;
+        border-radius:50%;
+      }
+       
+      .popup.active .overlay {
+        display:block;
+      }
+       
+      .popup.active .content {
+        transition:all 300ms ease-in-out;
+        transform:translate(-50%,-50%) scale(1);
+      }
+       
+      .pop {
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        padding:15px;
+        font-size:18px;
+        border:2px solid #222;
+        color:#222;
+        text-transform:uppercase;
+        font-weight:600;
+        background:#fff;
+      }
+      
+    
