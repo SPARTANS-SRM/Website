@@ -3,8 +3,8 @@
  
     .user_card {
         
-        height: 500px;
-        width: 450px;
+        height: 66.31vh;
+        width: 29.68vw;
         margin-top: auto;
         margin-bottom: auto;
         background: #131313;
@@ -12,7 +12,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding: 10px;
+        padding: 0.65vw;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -25,23 +25,23 @@
     .brand_logo_container {
         
         position: absolute;
-        height: 200px;
-        width: 200px;
-        left:125px;
-        top: -75px;
+        height: 26.52vh;
+        width: 13.15vw;
+        left:8.22vw;
+        top: -9.94vh;
         border-radius: 50%;
         background: #0c0d0e ;
-        padding: 10px;
+        padding: 0.657vw;
         text-align: center;
     }
     .brand_logo {
-        height: 175px;
-        width: 175px;
+        height: 23.20vh;
+        width: 11.51vw;
         border-radius: 50%;
         /* border: 2px solid white; */
     }
     .form_container {
-        margin-top: 100px;
+        margin-top: 13.2vh;
     }
     .custom-control-label{
         color:rgba(255, 255, 255, 0.527);
@@ -62,17 +62,20 @@
     }
     
     .input-group {
-        padding: 10px;
+        padding: 0.65vw;
     }
     
     .input-group .form-control {
+        position: relative;
+        width:22.03vw !important;
+        height:7.16vh;
         
         
-        margin-left: 75px;
+        margin-left: 4.93vw;
     }
     .input-group-append{
-        width:50px;
-        height:0px
+        width:3.28vw;
+        height:0vh
     }
     .input-group-text {
         height:50px;
@@ -97,12 +100,12 @@
     }
     .fas{
         border-radius: 0.25rem 0 0 1rem !important;
-        margin-left:21px ;
-        padding: 14px;
+        margin-left:1.38vw ;
+        padding: 1.85vh;
         background: #f85231 !important;
-        font-size: 24px;
-        width: 54px;
-        height: 54px !important;
+        font-size: 2.0vw;
+        width: 3.5vw;
+        height: 7.16vh !important;
     }
     i.fas.fa-user::before{
         height: 50px !important;
@@ -122,8 +125,8 @@
     }
     .popup .overlay {
         position:fixed;
-        top:0px;
-        left:0px;
+        top:0vh;
+        left:0vw;
         width:100vw;
         height:100vh;
         background:rgba(0,0,0,0.7);
@@ -139,8 +142,8 @@
         transform:translate(-50%,-50%) scale(0);
         /* background:#fff; */
         width:95% !important;
-        max-width:500px;
-        height:400px;
+        max-width:32.89vw;
+        height:53.05vh;
         z-index:2;
         text-align:center;
         padding:20px;
@@ -152,10 +155,10 @@
           z-index: 999;
         cursor:pointer;
         position:absolute;
-        right:5px;
-        top:10px;
-        width:30px;
-        height:30px;
+        right:0.32vw;
+        top:1.32vh;
+        width:1.97vw;
+        height:3.97vh;
         background:#f85231;
         color:#fff;
         font-size:25px;
@@ -187,5 +190,89 @@
         font-weight:600;
         background:#fff;
       }
-      
+      @media screen and (max-width: 992px) {
+        .user_card {
+        
+            height: 66.31vh !important;
+            width: 80.68vw;
+            margin-top: -5vh;
+            margin-left: -33vw;
+            padding: 0.65vw;
+            
     
+        }
+        .popup .close-btn {
+            
+          
+          
+          left:52.32vw;
+          top:-3vh;
+          width:5.97vw;
+          height:3.97vh;
+         
+          
+          
+        }
+        .input-group {
+            padding: 0.65vw;
+            width: 30vw;
+            height:7.16vh;
+        }
+        .input-group .form-control {
+            position: relative;
+            width:60.03vw !important;
+            height:7.16vh;
+            
+            
+            margin-left: 12.93vw;
+        }
+        .fas{
+            
+            margin-left:2.38vw ;
+            padding: 1.85vh;
+            font-size: 6.0vw;
+           
+           
+            width: 10.5vw;
+            height: 7.16vh !important;
+        }
+        .brand_logo {
+            height: 23.2vh;
+            width: 40.51vw;
+            border-radius: 50%;
+            margin-top: 1vw;
+            /* border: 2px solid white; */
+        }
+        .brand_logo_container {
+            
+            height: 25.52vh;
+            width: 46.15vw;
+            left: 15.22vw;
+            top: -9.94vh;
+            
+            
+        }
+      }
+      @media screen and (max-height: 500px){
+        .brand_logo {
+            height: 20.2vh;
+            width: 30.51vw;
+            border-radius: 50%;
+            margin-top: 1vw;
+            transition: 0.2s;
+            /* border: 2px solid white; */
+        }
+            .brand_logo_container {
+            
+                height: 23vh;
+                width: 35.15vw;
+                left: 20.22vw;
+                top: -9.94vh;
+                transition: 0.2s;
+            }
+            .popup .close-btn {         
+                padding-bottom: 5.5vh;
+                transition: 0.2s;
+                            
+              }
+      }
