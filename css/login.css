@@ -196,7 +196,7 @@
             height: 66.31vh !important;
             width: 80.68vw;
             margin-top: -5vh;
-            margin-left: -35vw;
+            margin-left: -33vw;
             padding: 0.65vw;
             
     
@@ -253,4 +253,26 @@
             
         }
       }
-    
+      @media screen and (max-height: 500px){
+        .brand_logo {
+            height: 20.2vh;
+            width: 30.51vw;
+            border-radius: 50%;
+            margin-top: 1vw;
+            transition: 0.2s;
+            /* border: 2px solid white; */
+        }
+            .brand_logo_container {
+            
+                height: 23vh;
+                width: 35.15vw;
+                left: 20.22vw;
+                top: -9.94vh;
+                transition: 0.2s;
+            }
+            .popup .close-btn {         
+                padding-bottom: 5.5vh;
+                transition: 0.2s;
+                            
+              }
+      }
