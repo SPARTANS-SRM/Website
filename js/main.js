@@ -157,6 +157,8 @@
 
 }());
 
-function togglePopup() {
+function togglePopup(ref) {
 	document.getElementById("popup-1").classList.toggle("active");
+	// ref.classList.removeClass('active');
+	document.getElementById("fh5co-aside").classList.toggle('active');
 }
