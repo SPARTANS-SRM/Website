@@ -97,7 +97,7 @@ body {
 
 #fh5co-aside.active{
     transform: perspective(1200px) rotateY(0deg);
-    
+    overflow:hidden;
   }
 
 a button {
