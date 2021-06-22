@@ -153,6 +153,7 @@ figure figcaption {
   top: 0;
   left: 0;
   position: absolute;
+  
   transform-origin: left;
   transform:perspective(1200px) rotateY(90deg);
   transition: all 400ms ease;
@@ -1194,12 +1195,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-@media screen and (max-width: 768px) {
-  .fh5co-nav-toggle {
-    opacity: 1;
-    visibility: visible;
-  }
-}
+
 
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
